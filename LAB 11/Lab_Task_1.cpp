@@ -2,8 +2,7 @@
 using namespace std;
 
 
-struct BstNode
-{
+struct BstNode{
 	int data;
 	BstNode *left;
 	BstNode *right;
@@ -12,8 +11,7 @@ struct BstNode
 BstNode *root;
 
 
-BstNode *GetNewNode(int data)
-{
+BstNode *GetNewNode(int data){
 	BstNode *NewNode = new BstNode();
 	NewNode->data = data;
 	NewNode->left = NULL;
@@ -21,30 +19,30 @@ BstNode *GetNewNode(int data)
 	return NewNode;
 }
 
-BstNode *Insert(BstNode *root, int data)
-{
-	if(root==NULL)
-    {
+
+
+
+// insertion process
+BstNode *Insert(BstNode *root, int data){
+	if(root==NULL){
 		root = GetNewNode(data);
-		cout << "Succesfully Inserted!" << "\n";
+		cout << "Succesfully Inserted!" << "\n";        // all the insertion is made in root
 	}
-	else if(data <= root->data)
-	{
-		root->left = Insert(root->left, data);
+	else if(data <= root->data){
+		root->left = Insert(root->left, data);          // inserts in left node
 	}
-	else
-	{
-		root->right = Insert(root->right, data);
+	else{
+		root->right = Insert(root->right, data);        // inserts in right node
 	}
 	return root;
 }
 
 
 
-void preorderTraversal(struct BstNode* root)
-{
-    if(root == NULL)
-    {
+// traversal process
+// Preorder traversal
+void preorderTraversal(struct BstNode* root){
+    if(root == NULL){
         return;
     }
 
@@ -53,10 +51,10 @@ void preorderTraversal(struct BstNode* root)
     preorderTraversal(root->right);
 }
 
-void postorderTraversal(struct BstNode* root)
-{
-    if(root == NULL)
-    {
+
+// Postorder traversal
+void postorderTraversal(struct BstNode* root) {
+    if(root == NULL){
         return;
     }
 
@@ -65,10 +63,11 @@ void postorderTraversal(struct BstNode* root)
     cout << root->data << " -> ";
 }
 
-void inorderTraversal(struct BstNode* root)
-{
-    if(root == NULL)
-    {
+
+// Inorder traversal
+//We know, inorder traversal of a binary search tree always yields all the nodes in increasing order.
+void inorderTraversal(struct BstNode* root) {
+    if(root == NULL){
         return;
     }
 
@@ -78,23 +77,18 @@ void inorderTraversal(struct BstNode* root)
 }
 
 
-bool Search(BstNode *root, int data)
-{
-	if(root==NULL)
-    {
+bool Search(BstNode *root, int data){
+	if(root==NULL){
 		cout << "Error: tree is empty" << "\n";
 		return false;
 	}
-	else if(root->data == data)
-	{
+	else if(root->data == data){
 		return true;
 	}
-	else if(data <= root->data)
-	{
+	else if(data <= root->data){
 		return Search(root->left, data);
 	}
-	else
-	{
+	else{
 		return Search(root->right, data);
 	}
 }
@@ -105,14 +99,22 @@ int main()
     cout << "|----------------------------------------------------------|" << "\n";
 	root = NULL;
 
-	root = Insert(root, 10);
-	root = Insert(root, 4);
-	root = Insert(root, 1);
-	root = Insert(root, 2);
-	root = Insert(root, 12);
-	root = Insert(root, 7);
 	root = Insert(root, 5);
+	root = Insert(root, 3);
+	root = Insert(root, 2);
+	root = Insert(root, 4);
+	root = Insert(root, 7);
+	root = Insert(root, 6);
+	root = Insert(root, 8);
 
+
+	/*  The following tree
+                 5
+               /   \
+              3     7
+            /  \   / \
+           2    4 6   8
+	*/
 
 
     cout << "|----------------------------------------------------------|" << "\n";
@@ -141,6 +143,8 @@ int main()
 	else{
 		cout << "Element not found" << "\n";
 	}
+
+
 
 	return 0;
 }
