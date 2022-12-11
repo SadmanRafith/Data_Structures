@@ -2,7 +2,8 @@
 using namespace std;
 
 
-struct BstNode{
+struct BstNode
+{
 	int data;
 	BstNode *left;
 	BstNode *right;
@@ -11,7 +12,8 @@ struct BstNode{
 BstNode *root;
 
 
-BstNode *GetNewNode(int data){
+BstNode *GetNewNode(int data)
+{
 	BstNode *NewNode = new BstNode();
 	NewNode->data = data;
 	NewNode->left = NULL;
@@ -23,15 +25,19 @@ BstNode *GetNewNode(int data){
 
 
 // insertion process
-BstNode *Insert(BstNode *root, int data){
-	if(root==NULL){
+BstNode *Insert(BstNode *root, int data)
+{
+	if(root==NULL)
+	{
 		root = GetNewNode(data);
 		cout << "Succesfully Inserted!" << "\n";        // all the insertion is made in root
 	}
-	else if(data <= root->data){
+	else if(data <= root->data)
+	{
 		root->left = Insert(root->left, data);          // inserts in left node
 	}
-	else{
+	else
+	{
 		root->right = Insert(root->right, data);        // inserts in right node
 	}
 	return root;
@@ -41,8 +47,10 @@ BstNode *Insert(BstNode *root, int data){
 
 // traversal process
 // Preorder traversal
-void preorderTraversal(struct BstNode* root){
-    if(root == NULL){
+void preorderTraversal(struct BstNode* root)
+{
+    if(root == NULL)
+    {
         return;
     }
 
@@ -53,8 +61,10 @@ void preorderTraversal(struct BstNode* root){
 
 
 // Postorder traversal
-void postorderTraversal(struct BstNode* root) {
-    if(root == NULL){
+void postorderTraversal(struct BstNode* root) 
+{
+    if(root == NULL)
+    {
         return;
     }
 
@@ -66,8 +76,10 @@ void postorderTraversal(struct BstNode* root) {
 
 // Inorder traversal
 //We know, inorder traversal of a binary search tree always yields all the nodes in increasing order.
-void inorderTraversal(struct BstNode* root) {
-    if(root == NULL){
+void inorderTraversal(struct BstNode* root)
+{
+    if(root == NULL)
+    {
         return;
     }
 
@@ -77,18 +89,23 @@ void inorderTraversal(struct BstNode* root) {
 }
 
 
-bool Search(BstNode *root, int data){
-	if(root==NULL){
+bool Search(BstNode *root, int data)
+{
+	if(root==NULL)
+	{
 		cout << "Error: tree is empty" << "\n";
 		return false;
 	}
-	else if(root->data == data){
+	else if(root->data == data)
+	{
 		return true;
 	}
-	else if(data <= root->data){
+	else if(data <= root->data)
+	{
 		return Search(root->left, data);
 	}
-	else{
+	else
+	{
 		return Search(root->right, data);
 	}
 }
@@ -137,10 +154,12 @@ int main()
 	cin >> s;
 	cout << "\n";
 
-	if(Search(root, s) == true){
+	if(Search(root, s) == true)
+	{
 		cout << "Element found!" << "\n";
 	}
-	else{
+	else
+	{
 		cout << "Element not found" << "\n";
 	}
 
