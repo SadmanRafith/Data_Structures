@@ -14,12 +14,9 @@ int main()
 
     /*
         int myArray[size]; 
-
         this is an error!!!! cannot create array size
         on runtime!
-    */
-
-    /*
+ 
         After creating an dynamic array with new keyword,
         we must delete that array in order to free some space,
         avoiding unncessary space.
