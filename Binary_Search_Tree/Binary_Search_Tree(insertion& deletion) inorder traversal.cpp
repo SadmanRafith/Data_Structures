@@ -96,7 +96,7 @@ struct Node *Delete(Node *root, int data){
 	return root;
 }
 
-bool Search(Node*root, int data){
+/*bool Search(Node*root, int data){
 	if(root==NULL){
 		cout << "Error: tree is empty" << "\n";
 		return false;
@@ -110,7 +110,7 @@ bool Search(Node*root, int data){
 	else{
 		return Search(root->right, data);
 	}
-}
+}*/
 
 
 
@@ -140,7 +140,7 @@ int main()
     Inorder(root);
 
       cout << "|----------------------------------------------------------|" << "\n";
-    cout << "Enter search item: ";
+   /* cout << "Enter search item: ";
 
 	int s;
 	cin >> s;
@@ -152,7 +152,7 @@ int main()
 	else{
 		cout << "Element not found" << "\n";
 	}
-
+*/
 
 
 	return 0;
