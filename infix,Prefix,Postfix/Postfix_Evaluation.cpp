@@ -1,4 +1,3 @@
-
 #include<iostream>
 #include<cmath>
 #include<stack>
@@ -51,6 +50,7 @@ float Process(int a, int b, char op){
         return INT_MIN;                 //return negative infinity
    }
 }
+
 
 
 float postfixVal(string postfix){
