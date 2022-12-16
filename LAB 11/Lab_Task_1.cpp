@@ -1,3 +1,9 @@
+/*Write a C++ code to implement Binary Search Tree operations (insertion, traversal and searching)
+Do the following to write program for a BST:
+To construct a binary search tree of integers (insert one by one).
+To traverse the tree using all the methods i.e., in order, preorder and post order.
+To search an element on a given BST*/
+
 #include<iostream>
 using namespace std;
 
