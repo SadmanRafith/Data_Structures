@@ -1,0 +1,25 @@
+------------------------------------------------------------DS Lab Exam-------------------------------------------------------------------
+Answer all of the questions.                                                                                               Time: 1:30 hour
+
+Odd PC Number:
+--------------
+
+1. Write a program to sort the elements stored in a linked list using bubble sort.
+2. Write a program to convert an infix algebraic expression to a prefix one using the help of Stack & Queue.
+3. Implement Binary Search Tree operations (insertion, deletion). Write the preorder traversing function and postorder traversing function.
+
+
+Even PC Number:
+----------------
+
+1. Write a program to sort the elements stored in a linked list using selection sort.
+2. Write a program to convert an prefix algebraic expression to a postfix one using the help of Stack & Queue.
+3. Implement Binary Search Tree operations (insertion, deletion). Write the inorder traversing function and the search function.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
+Make a zip file containing all the solutions and submit it through the AIUB student portal. 
+Your zip file name should be your ID_Even/Odd. 
+For example: 
+11-18421-1_Even
+12-20643-3_Odd
