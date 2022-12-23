@@ -1,5 +1,4 @@
-/* MD.TAHSIN HASIB 22-46026-1
-
+/*
     Write a C++ program to create an integer array where size should be
     more than five. Then make a new array from it without the prime elements
     and print the new array. You must take the elements of the array from the user.
