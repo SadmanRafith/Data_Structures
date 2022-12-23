@@ -1,5 +1,4 @@
-/* MD.TAHSIN HASIB 22-46026-1
-
+/*
     Write a C++ program to create an integer array of size 7. Then take an number 
     from the user and print how many times that number occurs in that array. You 
     must take the elements of the array from the user.
