@@ -1,5 +1,4 @@
-/* MD.TAHSIN HASIB 22-46026-1
-    
+/* 
     Write a C++ program to initialize two matrices of 5 x 5 and 5 x 6 (row x column) 
     sizes. Multiply them, then find the transpose matrix of it.
 
