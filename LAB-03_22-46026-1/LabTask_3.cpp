@@ -1,4 +1,4 @@
-/* MD.TAHSIN HASIB 22-46026-1
+/* 
 
     Write a C++ program with appropriate data structure to keep records of 15 students. 
     Each student will have the following information:
