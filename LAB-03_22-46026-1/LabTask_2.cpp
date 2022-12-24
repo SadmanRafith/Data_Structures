@@ -1,4 +1,4 @@
-/* MD.TAHSIN HASIB 22-46026-1
+/*
 
     Write a code that will create custom ciphers (encoded words) on strings. Follow this procedure:
     
