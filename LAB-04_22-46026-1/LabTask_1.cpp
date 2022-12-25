@@ -1,4 +1,4 @@
-/* MD.TAHSIN HASIB 22-46026-1 
+/* 
 
    Write C++ code to implement Stack. You have to build the following functions and 
    call them from the main method.
