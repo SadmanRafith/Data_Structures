@@ -1,4 +1,4 @@
-/* MD.TAHSIN HASIB 22-46026-1 
+/* 
 
     Write C++ code to implement Stack using object orientation. Example - class 
 
