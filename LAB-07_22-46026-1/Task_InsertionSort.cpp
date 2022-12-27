@@ -1,4 +1,4 @@
-/* MD.TAHSIN HASIB
+/* 
 
     Implement Insertion Sort and also print the number of comparisons and exchanges used.
 
