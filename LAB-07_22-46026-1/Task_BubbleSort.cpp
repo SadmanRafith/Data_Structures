@@ -1,4 +1,4 @@
-/* MD.TAHSIN HASIB
+/* 
 
     Implement bubble Sort and also print the number of comparisons and exchanges used.
 
