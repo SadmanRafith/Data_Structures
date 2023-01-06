@@ -1,4 +1,4 @@
-//22-46026-1 MD. TAHSIN HASIB
+
 
 #include<iostream>
 using namespace std;
