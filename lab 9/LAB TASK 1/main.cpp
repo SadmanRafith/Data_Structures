@@ -1,4 +1,6 @@
-/* infix to postfix*/
+/* 
+infix to postfix
+*/
 
 #include<iostream>
 #include<stack>
