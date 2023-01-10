@@ -1,3 +1,17 @@
+/*
+A queue is a linear data structure in which elements are added at one end and removed from the other end. 
+This is known as a First-In-First-Out (FIFO) data structure because the first element added to the queue is the first one to be removed.
+Here's how the queue algorithm works:
+1. Initialize an empty queue.
+2. To add an element to the queue, also known as enqueuing, add the element to the end of the queue.
+3. To remove an element from the queue, also known as dequeuing, remove the element from the front of the queue.
+4. Repeat this process until all desired elements have been added to and removed from the queue.
+Here's an example of how a queue might be used:
+Imagine you are in a line at a ticket counter. The person at the front of the line is the first one to be served, 
+and the person at the back of the line is the last one to be served. The queue algorithm is used to ensure that 
+the people are served in the order they arrived at the counter.
+*/
+
 #include<iostream>
 using namespace std;
 
