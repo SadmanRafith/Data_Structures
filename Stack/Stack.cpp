@@ -1,3 +1,16 @@
+/*
+A stack algorithm works by using the Last In, First Out (LIFO) principle. This means that the last element 
+added to the stack will be the first one to be removed.
+The basic operations that can be performed on a stack include:
+1. push(item): which adds an element to the top of the stack
+2. pop(): which removes the top element from the stack
+3. top(): which returns the top element from the stack without removing it
+4. is_empty(): which returns a Boolean value indicating whether the stack is empty or not
+When an element is pushed onto the stack, it is placed at the top of the stack. When an element is popped off the stack, 
+the element at the top of the stack is removed. When the peek() operation is performed, the element at the top of the 
+stack is returned without being removed.
+*/
+
 #include<iostream>
 using namespace std;
 
