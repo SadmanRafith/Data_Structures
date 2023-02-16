@@ -1,4 +1,4 @@
 # Data-Structures
 This repository contains my Data Structures raw codes written in both Java and C++.
 
-![maxresdefault](https://user-images.githubusercontent.com/99963332/206363709-ac57d9e6-84c5-4f28-bb11-d0f8ce8c4f14.jpg)
+![68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313630333934373134363938362f4a44526d312d4d7a362e706e67](https://user-images.githubusercontent.com/108008599/219289290-5c16e4a8-a1e2-4596-8141-736d42c2991f.png)
