@@ -1,3 +1,11 @@
+/*
+This program takes two matrices of order r*c and stores it in two-dimensional array. Then, the program adds these two matrices and displays it on the screen.
+In this program, user is asked to entered the number of rows r and columns c. The value of r and c should be less than 100 in this program.
+
+The user is asked to enter elements of two matrices (of order r*c).
+
+Then, the program adds these two matrices, saves it in another matrix (two-dimensional array) and displays it on the screen.
+*/
 #include<iostream>
 using namespace std;
 
